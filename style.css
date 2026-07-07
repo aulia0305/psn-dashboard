@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#EEF2F6;
+    color:#2F3B52;
+}
+
+/* Header */
+
+header{
+    background:#36485D;
+    color:white;
+    padding:16px 40px;
+    box-shadow:0 2px 10px rgba(0,0,0,.12);
+}
+
+.header-content{
+    max-width:1400px;
+    margin:auto;
+}
+
+header h1{
+    font-size:28px;
+    font-weight:700;
+}
+
+header p{
+    margin-top:4px;
+    font-size:14px;
+    opacity:.85;
+}
+
+/* Main */
+
+main{
+    max-width:1400px;
+    margin:25px auto;
+    padding:0 15px;
+}
+
+/* Card */
+
+.dashboard-card{
+    background:white;
+    border-radius:10px;
+    overflow:auto;
+    box-shadow:0 4px 16px rgba(0,0,0,.08);
+}
+
+/* Tableau */
+
+.tableauPlaceholder{    min-width:1200px;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:15px;
+    color:#7C8795;
+    font-size:13px;
+}
