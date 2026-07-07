@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasifik Satelit Nusantara</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Pasifik Satelit Nusantara</h1>
+            <p>Dashboard Monitoring Starlink</p>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="dashboard-card">
+
+            <div class='tableauPlaceholder' id='viz1783307642297' style='position: relative'>
+
+                <noscript>
+                    <a href='#'>
+                        <img alt='Dashboard'
+                            src='https://public.tableau.com/static/images/CP/CPS2X2GCW/1_rss.png'
+                            style='border:none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+
+                    <param name='embed_code_version' value='3' />
+
+                    <param name='path' value='shared/CPS2X2GCW' />
+
+                    <param name='toolbar' value='no' />
+
+                    <param name='tabs' value='no' />
+
+                    <param name='display_count' value='no' />
+
+                    <param name='showVizHome' value='no' />
+
+                    <param name='language' value='en-US' />
+
+                </object>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        PT Pasifik Satelit Nusantara • Retail Analytics
+    </footer>
+
+    <script>
+
+        var divElement = document.getElementById('viz1783307642297');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+
+        if (divElement.offsetWidth > 1200) {
+
+            vizElement.style.width = '1400px';
+            vizElement.style.height = '920px';
+
+        } else if (divElement.offsetWidth > 800) {
+
+            vizElement.style.width = '1200px';
+            vizElement.style.height = '827px';
+
+        } else {
+
+            vizElement.style.width = '100%';
+            vizElement.style.height = '1227px';
+
+        }
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+    </script>
+
+</body>
+
+</html>
